@@ -30,5 +30,5 @@ A sample batch script is located in the batchRuns folder. This script can be ran
 
     sbatch Unified.bash <total jobs> <starting job, usually 0> <file name>
 
-With a slurm manager present, docking jobs will be run in parallel until completion.
+With a slurm manager present, docking jobs will be run in parallel until completion. There are by default 1,000 jobs included in the job array (In the line containing 1%1000-1000), and a default conda environment name "blind". These can be customized to the personal environment.
   
