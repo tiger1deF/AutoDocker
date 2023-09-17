@@ -2,11 +2,11 @@
 A powerful, lightweight wrapper for blind autodocking with Vina, which allows for efficient docking of large-scale datasets 
 
 # Environment
-Conda is required to adequately prepare the protein files. Once the environment is created, the requirements.txt file can be installed within the conda environment. Finally, install mgltools with
+Conda is required to adequately prepare the protein files. Download the env.yml file in the environments folder, and simply run the command:
 
-    conda install -c bioconda mgltools
-
-And the environment is prepared!
+    conda env create -f env.yml
+    
+And the environment will be generated. By default, the name will be blind.
 
 # Requirements and Options
 The primary function is blind.py, located in the UnifiedPipeline folder. The file can be run with the following flags:
